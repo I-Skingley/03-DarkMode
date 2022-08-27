@@ -1,5 +1,10 @@
+<script setup lang="ts">
+const isDarkMode = useDarkMode();
+</script>
+
 <template>
   <div>
+    {{ isDarkMode }}
     <Nav />
     <Heading />
     <Cards />
