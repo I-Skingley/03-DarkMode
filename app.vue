@@ -3,8 +3,7 @@ const isDarkMode = useDarkMode();
 </script>
 
 <template>
-  <div>
-    {{ isDarkMode }}
+  <div :style="isDarkMode ? {backgroundColor: 'black'} : null">
     <Nav />
     <Heading />
     <Cards />
