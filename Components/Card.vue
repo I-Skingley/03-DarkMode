@@ -1,6 +1,6 @@
 <script setup lang="ts">
 
-const isDarkMode = useDarkMode();
+const {isDarkMode} = useDarkMode();
 
 interface CardProps {
   card: {

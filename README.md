@@ -7,6 +7,7 @@ useState
 # Changes from course
 
 Simplified useDarkMode.ts  
+Made nav bar fixed so dark mode toggle always usable
 
 # Nuxt 3 Minimal Starter
 

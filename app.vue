@@ -1,10 +1,10 @@
 <script setup lang="ts">
-const isDarkMode = useDarkMode();
+const {isDarkMode} = useDarkMode();
 </script>
 
 <template>
   <div :style="isDarkMode ? {backgroundColor: 'black'} : null">
-    <Nav />
+    <Nav :position="fixed" />
     <Heading />
     <Cards />
   </div>

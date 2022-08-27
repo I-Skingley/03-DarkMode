@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const isDarkMode = useDarkMode();
+const {isDarkMode} = useDarkMode();
 </script>
 
 <template>
@@ -45,6 +45,7 @@ h2 {
 }
 .content-container {
   display: flex;
+  margin-top: 50px;
 }
 .text-container {
   padding-right: 50px;

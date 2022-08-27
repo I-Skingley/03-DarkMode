@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const isDarkMode = useDarkMode();
+const {isDarkMode} = useDarkMode();
 
 const cards = [
   {
