@@ -4,6 +4,11 @@ Global State
 Composables  
 useState
 
+# Screenshots:
+
+![Light mode](/screenshots/light.png)
+![Dark mode](/screenshots/dark.png)
+
 # Changes from course
 
 Simplified useDarkMode.ts  
